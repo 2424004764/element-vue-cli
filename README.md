@@ -2,6 +2,7 @@
 移植element-admin-tpl为cli版
 ## 这是首页
 <img src="http://cdn.fologde.com/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20200811114151.png">
+![](http://cdn.fologde.com/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20200811114151.png)
 
 ## 这是登录页
 <img src="http://cdn.fologde.com/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20200811114207.png">
