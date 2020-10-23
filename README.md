@@ -23,7 +23,7 @@
 ## 使用
 1.npm install
 
-2.npm run dev
+2.npm run start
 
 
 ### 编译
