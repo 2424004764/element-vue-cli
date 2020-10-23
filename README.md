@@ -3,7 +3,7 @@
 
 需要补充的
 1、sass
-2、axios 封装
+2、axios 封装 已补充
 
 
 # element-admin-cli
