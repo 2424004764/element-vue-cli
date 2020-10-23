@@ -27,15 +27,16 @@
           <router-view />
         </transition>
       </m-main>
-      <!-- <m-footer class="app-footer">footer</m-footer> -->
+      <m-footer class="app-footer">footer</m-footer>
     </m-container>
   </m-container>
 </template>
 
 <script>
-import { MContainer, MMain, MHeader, MSider } from './layout'
+import { MContainer, MMain, MHeader, MSider, MFooter } from './layout'
 import AppAside from './app-aside'
 import AppHeader from './app-header'
+import {fetchImages} from '../api/images'
 
 export default {
   components: {
@@ -44,7 +45,8 @@ export default {
     MHeader,
     MSider,
     AppAside,
-    AppHeader
+    AppHeader,
+    MFooter
   },
   data () {
     return {
@@ -134,3 +136,7 @@ export default {
   }
 }
 </script>
+
+<style lang="sass" scope>
+  
+</style>

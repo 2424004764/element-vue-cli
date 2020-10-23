@@ -1,98 +1,42 @@
 <template>
-  <el-table
-    :data="tableData"
-    border
-    style="width: 100%">
-    <el-table-column
-      fixed
-      prop="date"
-      label="日期"
-      width="150">
-    </el-table-column>
-    <el-table-column
-      prop="name"
-      label="姓名"
-      width="120">
-    </el-table-column>
-    <el-table-column
-      prop="province"
-      label="省份"
-      width="120">
-    </el-table-column>
-    <el-table-column
-      prop="city"
-      label="市区"
-      width="120">
-    </el-table-column>
-    <el-table-column
-      prop="address"
-      label="地址"
-      width="300">
-    </el-table-column>
-    <el-table-column
-      prop="zip"
-      label="邮编"
-      width="120">
-    </el-table-column>
-    <el-table-column
-      fixed="right"
-      label="操作"
-      width="100">
-      <template slot-scope="scope">
-        <el-button @click="handleClick(scope.row)" type="text" size="small">查看</el-button>
-        <el-button type="text" size="small">编辑</el-button>
-      </template>
-    </el-table-column>
-  </el-table>
+  <div>
+    <el-row>
+    <el-col :xs="12" :span="8"><div class="grid-content bg-purple">
+        <ve-pie :data="chartData"></ve-pie>
+      </div></el-col>
+    <el-col :xs="12" :span="8"><div class="grid-content bg-purple-light">
+      <ve-pie :data="chartData"></ve-pie>
+    </div></el-col>
+    <el-col :xs="12" :span="8"><div class="grid-content bg-purple">
+      <ve-pie :data="chartData"></ve-pie>  
+    </div></el-col>
+  </el-row>
+  </div>
 </template>
 
 
 
 <script>
-  import {getAllImages} from '../../api/images'
+
   export default {
     created(){
-      getAllImages({}).then(res => {
-        console.log(res)
-      })
     },
     methods: {
-      handleClick(row) {
-        console.log(row);
-      }
     },
 
     data() {
       return {
-        tableData: [{
-          date: '2016-05-02',
-          name: '王小虎',
-          province: '上海',
-          city: '普陀区',
-          address: '上海市普陀区金沙江路 1518 弄',
-          zip: 200333
-        }, {
-          date: '2016-05-04',
-          name: '王小虎',
-          province: '上海',
-          city: '普陀区',
-          address: '上海市普陀区金沙江路 1517 弄',
-          zip: 200333
-        }, {
-          date: '2016-05-01',
-          name: '王小虎',
-          province: '上海',
-          city: '普陀区',
-          address: '上海市普陀区金沙江路 1519 弄',
-          zip: 200333
-        }, {
-          date: '2016-05-03',
-          name: '王小虎',
-          province: '上海',
-          city: '普陀区',
-          address: '上海市普陀区金沙江路 1516 弄',
-          zip: 200333
-        }]
+        chartData: {
+          columns: ['日期', '访问用户'],
+          rows: [
+            { '日期': '1/1', '访问用户': 1393 },
+            { '日期': '1/2', '访问用户': 3530 },
+            { '日期': '1/3', '访问用户': 2923 },
+            { '日期': '1/4', '访问用户': 1723 },
+            { '日期': '1/5', '访问用户': 3792 },
+            { '日期': '1/6', '访问用户': 4593 }
+          ]
+        }
       }
     }
   }

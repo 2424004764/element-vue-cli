@@ -46,7 +46,7 @@ export default {
       fullScreen: false,
       menus: [
         { label: 'Dashboard', icon: 'fa fa-dashboard', path: '/admin' },
-        { label: 'Introduce', icon: 'fa fa-dot-circle-o', path: '/page1' },
+        { label: 'Introduce1', icon: 'fa fa-dot-circle-o', path: '/page1' },
         {
           label: 'GROUP 1',
           type: 'group',

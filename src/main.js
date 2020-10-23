@@ -11,6 +11,7 @@ import 'nprogress/nprogress.css'
 import 'vue-m-dialog/dist/css/default.css'
 import 'element-ui/lib/theme-chalk/index.css'
 import './assets/css/main.css'
+import VCharts from 'v-charts'
 
 Vue.use(Message, { name: 'msg' }) // mount `Vue.prototype.$msg`
 Vue.use(MDialog, {
@@ -19,6 +20,7 @@ Vue.use(MDialog, {
   confirmName: 'mconfirm'
 })
 Vue.use(ElementUI)
+Vue.use(VCharts)
 
 Vue.config.productionTip = false
 
