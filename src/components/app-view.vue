@@ -2,7 +2,7 @@
   <m-container class="app-layout" direction="horizontal">
     <m-sider class="app-sider"
       :class="{
-        'is-close': navigation.isClose,
+        'is-close': navigation.isClose, 
         'is-moving': navigation.isMoving,
         'is-mini': navigation.isMini
       }"
