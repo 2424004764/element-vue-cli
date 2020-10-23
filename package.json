@@ -1,5 +1,5 @@
 {
-  "name": "docker-web-mamage1", 
+  "name": "docker-web-mamage1",
   "version": "1.0.0",
   "description": "docker 的web管理器，前端使用vue的element-ui框架",
   "author": "wangmc01 <wangmc01@mingyuanyun.com>",
