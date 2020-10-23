@@ -4,7 +4,7 @@
       <ul class="app-header-tool">
         <li><router-link to="/admin" class="m-link-effect"><i class="fa fa-home"></i>&nbsp;面板首页</router-link></li>
         <!-- <li><a href="http://lanyueos.com" target="_blank" class="m-link-effect">Website&nbsp;<i class="fa fa-external-link"></i></a></li> -->
-      </ul>
+      </ul> 
     </div>
     <div class="float-right">
       <ul class="app-header-tool">
