@@ -1,5 +1,9 @@
 使用 element-ui 简洁的后台管理页面
 
+需要补充的
+1、sass
+2、axios 封装
+
 
 # element-admin-cli
 移植element-admin-tpl为cli版
