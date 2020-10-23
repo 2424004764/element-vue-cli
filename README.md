@@ -5,6 +5,8 @@
 1、sass 已安装
 2、axios 封装 已补充
 
+axios的请求可参考 src/views/admin/images.vue
+
 
 # element-admin-cli
 移植element-admin-tpl为cli版
