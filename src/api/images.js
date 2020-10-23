@@ -15,7 +15,6 @@ export function fetchImages(params, options) {
   })
 }
 
-
 /**
  * 获取镜像详情
  * @param {string} imageId 镜像id
