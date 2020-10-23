@@ -58,7 +58,7 @@ const menus = [
   //     }
   //   ]
   // },
-  { type: 'line' },
+  { type: 'line' }, 
   // { label: 'Github', icon: 'fa fa-github-alt', link: 'https://github.com/mengdu/vue-element-admin-tpl', title: 'Github' },
   // { label: 'Element-UI', icon: 'fa fa-external-link-square', link: 'https://element.eleme.cn', title: 'Element-UI' },
   // { label: 'About', icon: 'fa fa-meetup', link: 'https://github.com/mengdu', title: 'About Author' }
