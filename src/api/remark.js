@@ -3,7 +3,6 @@
 // 行内的参数，有些地址不是在url后面添加，是在url中间添加的如/images/{name}/json
 // 根据需要传参
 
-
 /**
  * 获取镜像
  * @param {Object} params 可选的url参数
